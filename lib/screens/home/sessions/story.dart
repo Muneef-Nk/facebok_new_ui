@@ -14,7 +14,7 @@ class Story extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         children: [
           StoryCards(
-            avatersize: 20,
+            avatersize: 00,
             pic: '',
             label: '',
             storypic: 'images/music.jpg',
@@ -22,7 +22,7 @@ class Story extends StatelessWidget {
             isCreate: false,
           ),
           StoryCards(
-            avatersize: 20,
+            avatersize: 00,
             pic: '',
             label: '',
             storypic: 'images/a1.jpg',
@@ -30,7 +30,7 @@ class Story extends StatelessWidget {
             isCreate: true,
           ),
           StoryCards(
-            avatersize: 20,
+            avatersize: 17,
             pic: 'images/a5.jpeg',
             label: 'anu',
             storypic: 'images/s2.jpeg',
@@ -38,7 +38,7 @@ class Story extends StatelessWidget {
             isCreate: false,
           ),
           StoryCards(
-            avatersize: 20,
+            avatersize: 17,
             pic: 'images/a3.jpg',
             label: 'anu',
             storypic: 'images/s3.jpg',
@@ -46,7 +46,7 @@ class Story extends StatelessWidget {
             isCreate: false,
           ),
           StoryCards(
-            avatersize: 20,
+            avatersize: 17,
             pic: 'images/a4.png',
             label: 'anu',
             storypic: 'images/s4.jpg',
@@ -54,7 +54,7 @@ class Story extends StatelessWidget {
             isCreate: false,
           ),
           StoryCards(
-            avatersize: 20,
+            avatersize: 17,
             pic: 'images/a2.jpg',
             label: 'Muneef',
             storypic: 'images/s5.jpeg',

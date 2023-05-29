@@ -15,7 +15,7 @@ class ProfileTextField extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           CircleProfile(
-            size: 24,
+            size: 20,
             pic: 'images/a1.jpg',
             isborderBlue: false,
           ),

@@ -14,18 +14,20 @@ class CircleProfile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.all(4),
-      margin: EdgeInsets.all(5),
-      // width: 55,
-      // height: 55,
-      decoration: BoxDecoration(
-        border:isborderBlue? Border.all(width: 4, color: Color(0xff1778F2)):null,
-         shape:  BoxShape.circle,
-      ),
-      child: CircleAvatar(
-        radius: size,//24
-        backgroundImage: AssetImage(pic),
+    return Positioned(
+      left: 8,
+      top: 8,
+      child: Container(
+        padding: EdgeInsets.all(2.5),
+        // margin: EdgeInsets.all(5),
+        decoration:isborderBlue? BoxDecoration(
+          border: Border.all(width: 2.5, color: Color(0xff1778F2)),
+           shape:  BoxShape.circle,
+        ):null,
+        child: CircleAvatar(
+          radius: size,//24
+          backgroundImage: AssetImage(pic),
+        ),
       ),
     );
   }

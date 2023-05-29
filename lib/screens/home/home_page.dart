@@ -1,3 +1,4 @@
+import 'package:facebook_new_ui/screens/home/sessions/post.dart';
 import 'package:facebook_new_ui/screens/home/sessions/profile_textfeild.dart';
 import 'package:facebook_new_ui/screens/home/sessions/story.dart';
 import 'package:flutter/material.dart';
@@ -18,6 +19,7 @@ class Home extends StatelessWidget {
         Divider(
           thickness: 10,
         ),
+       Post()
       ],
     );
   }
