@@ -9,17 +9,18 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var divider = Divider(
+          thickness: 10,
+        );
     return ListView(
+      physics: BouncingScrollPhysics(),
       children: [
         ProfileTextField(),
-        Divider(
-          thickness: 10,
-        ),
+        divider,
       Story(),
-        Divider(
-          thickness: 10,
-        ),
-       Post()
+        divider,
+       Post(),
+        divider,
       ],
     );
   }
