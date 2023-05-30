@@ -1,16 +1,5 @@
 # facebook_new_ui
 
-A new Flutter project.
+<img src="https://github.com/Muneef-Nk/facebook_new_ui/assets/92105703/59d699f1-1593-4d88-8077-fae803196c75" width="200" height="400"/>
+<img src="https://github.com/Muneef-Nk/facebook_new_ui/assets/92105703/2e8c947a-a2fc-4874-93ed-59472fab21b8" width="200" height="400"/>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
