@@ -1,7 +1,7 @@
-import 'package:facebook_new_ui/screens/home/sessions/post.dart';
-import 'package:facebook_new_ui/screens/home/sessions/profile_textfeild.dart';
-import 'package:facebook_new_ui/screens/home/sessions/story.dart';
 import 'package:flutter/material.dart';
+import 'home_sessions/post.dart';
+import 'home_sessions/profile_textfeild.dart';
+import 'home_sessions/story.dart';
 
 
 class Home extends StatelessWidget {

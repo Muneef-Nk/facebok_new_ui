@@ -69,7 +69,7 @@ class Post extends StatelessWidget {
           pic: 'images/a3.jpg',
           name: 'James',
           time: '12 day ago',
-          isPublic: true,
+          isFriends: true,
         ),
         PostDescription(),
         Container(
@@ -93,7 +93,7 @@ class Post extends StatelessWidget {
           pic: 'images/a4.png',
           name: 'Mia',
           time: '6 minutes ago',
-          isPublic: true,
+          isOnlyMe: true,
         ),
         PostDescription(),
         Container(
